@@ -11,10 +11,13 @@ FrontEnd: [aws-web-app](https://github.com/RoshanRajcmd/aws-web-app)
 * AWS
   * Lambda
   * DynamoDB
-  * Aplify
+  * Amplify
   * API Gateway
   * Cognito
   * IAM
+
+<img width="1306" alt="Screenshot 2025-02-23 at 7 12 06 PM" src="https://github.com/user-attachments/assets/81419f94-470e-4026-aff5-12c601a3011b" />
+
 
 ## 🎛️ Features
 
@@ -33,10 +36,5 @@ FrontEnd: [aws-web-app](https://github.com/RoshanRajcmd/aws-web-app)
 
 Build a general VPC structure with Public and Private subnets, Route table and Internet gateway for you setup based on the above architecture diagram.
 
-
-
 ## 📸 Screenshots
 
-![Screenshot 2024-12-21 at 12 25 49 AM](https://github.com/user-attachments/assets/b72eb5a6-a870-4968-b663-fce4321e5a31)
-![Screenshot 2024-12-21 at 12 26 25 AM](https://github.com/user-attachments/assets/34787380-fcc2-4ec1-9f8a-21c5bddcd7c3)
-![Screenshot 2024-12-26 at 2 49 21 AM](https://github.com/user-attachments/assets/6b4b24e9-dd1c-478f-81ac-0079e2208edf)
