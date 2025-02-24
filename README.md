@@ -5,10 +5,11 @@ This project is refered from the original [Amazon workshop](https://aws.amazon.c
 
 ## ⚙️ Source Code
 
-FrontEnd: [aws-web-app](https://github.com/RoshanRajcmd/aws-web-app)
+FrontEnd and others: [aws-web-app](https://github.com/RoshanRajcmd/aws-web-app)
 
 ## 📚 Architecture
 
+* Angular
 * AWS
   * Lambda
   * DynamoDB
@@ -37,10 +38,15 @@ All services used are eligible for the [AWS Free Tier](https://aws.amazon.com/fr
 
 Build a general VPC structure with Public and Private subnets, Route table and Internet gateway for you setup based on the above architecture diagram.
 
-## The Application Code
-The application code is here in this repository.
+*Amplify Setup*
 
-## The Lambda Function Code
+Go to AWS Amplify and Click Create new APP.
+Choose the code base repository and brach from your GitHub Account.
+If needed add in your build compand and build location. And click Deploy to deploy the application.
+Note: Amplify have a automated pipeline for CI/CD by default when a app is created and that will detect and deploy any new changes pushed into the selected branch.
+
+
+### The Lambda Function Code
 Here is the code for the Lambda function, originally taken from the [AWS workshop](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-3/ ), and updated for Node 20.x:
 
 ```node
@@ -130,7 +136,7 @@ function errorResponse(errorMessage, awsRequestId) {
 }
 ```
 
-## The Lambda Function Test Function
+### The Lambda Function Test Function
 Here is the code used to test the Lambda function:
 
 ```json
