@@ -1,4 +1,4 @@
-# MyRead
+# SnapRides
 
 A Web Application for ride-sharing service where you can book a ride around your area using AWS services available on free tier. 
 This project is refered from the original [Amazon workshop](https://aws.amazon.com/serverless-workshops). 
